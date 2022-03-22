@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    text-align: center;
+  }
+
+  .header{
+    width: 100%;
+    display:inline-flex;
+  }
+  
+  .backgroundArea{
+    width: 100%;
+    background-color:#1D1E22;
+  }
+
+  .logo{
+    
+    height: 5rem;
+    width: 10%;
+  }
+  .logoImg{
+    width: 100%;
+  }
+  .title{
+    font-family: "Audiowide", sans-serif;
+
+    color: aliceblue;
+    font-size: 3rem;
+  }
+
+  textarea {
+    width: 31%;
+    /* float: top; */
+    min-height: 250px;
+    overflow: scroll;
+    margin: auto;
+    display: inline-block;
+    background:#1D1E22;
+    outline:none;
+    font-family: Courier, sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 3px solid rgba(78, 78, 80, 0.418);
+  }
+  @media (max-width:  450px){
+      textarea{
+          width: 80%;
+          display: flex;
+      }
+  }
+  textarea.html{
+      color: rgba(23, 182, 3, 0.877);
+  }
+  textarea.css{
+    color: rgb(226, 223, 5);
+  }
+  textarea.js{
+    color: rgba(8, 214, 241, 0.877);
+  }
+  ::placeholder
+  {
+      color: rgb(189, 180, 180);
+  }
+  iframe {
+    background-color: aliceblue;
+    bottom: 0;
+    position: relative;
+    width: 95%;
+    height: 35em;
+    border: 2px solid rgb(160, 150, 150);
+  }
